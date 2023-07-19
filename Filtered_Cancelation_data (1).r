@@ -7,7 +7,7 @@ library(lubridate)
 
 #Turning off scientific notation:
 options(scipen=999)#Turn off scientific notation as global setting
-#Carson's Part:
+
 
 #Loading in data:
 Cancelation<-read.csv('Hospitality.csv')
