@@ -119,8 +119,8 @@ Cancelation <- subset(Cancelation, select = -reservation_statusCheck.Out)
 #Saving File as a CSV in current working directory.
 write.csv(Cancelation, file = "Hospitality_final2.csv", row.names = FALSE)
 
-#General notes: When we get to modeling, we will determine based on the results,
-#if we need to re add some columns, or make any other changes to the data set,
+#General notes: When I get to modeling, I will determine based on the results,
+#if I need to re add some columns, or make any other changes to the data set,
 #to improve the model's performance.
 
 
